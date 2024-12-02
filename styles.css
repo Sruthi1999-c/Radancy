@@ -1,0 +1,184 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+  }
+  
+  /* Header Section */
+.header {
+    background-color: #ffffff; /* White background */
+    padding: 20px 0; /* Vertical padding */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    text-align: left; /* Align content to the left */
+  }
+  
+  .header-content {
+    max-width: 1200px; /* Limit the content width */
+    margin: 0 auto; /* Center the content horizontally */
+    display: flex; /* Use flex for alignment */
+    align-items: center; /* Vertically center the items */
+  }
+  
+  .logo {
+    max-height: 50px; /* Set a maximum height for the logo */
+    height: auto; /* Ensure proper scaling */
+  }
+  
+  
+  .logo {
+    max-width: 180px;
+  }
+  
+  /* Intro Section */
+  .intro {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+  }
+  
+  .intro-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  .profile-image {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  .intro-text {
+    max-width: 500px;
+  }
+  
+  h1 {
+    color: #006644;
+    margin-bottom: 10px;
+    font-size: 1.8rem;
+  }
+  
+  p {
+    margin-bottom: 20px;
+    font-size: 1rem;
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #f47a20;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  /* Advantages Section */
+  .advantages {
+    background-color: #e8f5e9;
+    padding: 40px 20px;
+  }
+  
+  .advantage-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  
+  .card {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1 1 calc(45%);
+    border-radius: 5px;
+  }
+  
+  .card h3 {
+    color: #006644;
+    margin-bottom: 10px;
+  }
+  
+  /* Testimonials Section */
+  .testimonials {
+    background-color: #f9f9f9;
+    padding: 40px 20px;
+  }
+  
+  .testimonial-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+  }
+  
+  .testimonial {
+    background: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    flex: 1 1 calc(30%);
+    border-radius: 5px;
+  }
+  
+  blockquote {
+    font-style: italic;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #006644;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .intro-content {
+      flex-direction: column;
+    }
+  
+    .advantage-cards, .testimonial-cards {
+      flex-direction: column;
+    }
+  
+    .card, .testimonial {
+      flex: 1 1 100%;
+    }
+  }
+
+  /* Home Loans Section */
+.home-loans {
+    background-color: #006644; 
+    color: white; 
+    padding: 40px 20px; 
+    text-align: center; 
+    font-size: 1rem;
+    line-height: 1.8;
+  }
+  
+  .home-loans h2 {
+    font-size: 1.8rem; 
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  .home-loans .description {
+    max-width: 800px; 
+    margin: 0 auto; 
+    font-size: 1rem; 
+    line-height: 1.6; 
+  }
+  
+  
