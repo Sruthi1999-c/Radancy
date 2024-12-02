@@ -180,5 +180,68 @@
     font-size: 1rem; 
     line-height: 1.6; 
   }
+
+  /* Citizens Advantage Section */
+.citizens-advantage {
+  background-color: #f9f9f9; 
+  padding: 40px 20px; 
+  text-align: center; 
+}
+
+.citizens-advantage h2 {
+  font-size: 1.8rem; 
+  color: #006644; 
+  margin-bottom: 30px; 
+  font-weight: bold;
+}
+
+.advantage-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); 
+  gap: 20px; 
+  max-width: 1200px; 
+  margin: 0 auto; 
+}
+
+.advantage-card {
+  background-color: white; 
+  border: 1px solid #ddd; 
+  border-radius: 8px; 
+  padding: 20px; 
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  text-align: left; 
+}
+
+.advantage-card h3 {
+  color: #006644; 
+  font-size: 1.4rem;
+  margin-bottom: 15px;
+}
+
+.advantage-card p {
+  color: #333; /* Dark gray text for content */
+  font-size: 1rem;
+  line-height: 1.6; /* Increase line spacing for readability */
+  margin-bottom: 15px;
+}
+
+.learn-more {
+  color: #f47a20; /* Orange link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.learn-more:hover {
+  text-decoration: underline; /* Underline on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .advantage-grid {
+    grid-template-columns: 1fr; /* Single column for smaller screens */
+  }
+}
+
   
   
